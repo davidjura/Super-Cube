@@ -1,0 +1,22 @@
+settings =
+{
+    android =
+    {
+        versionCode = "1",
+        usesPermissions =
+        {
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "android.permission.INTERNET",
+            "android.permission.ACCESS_NETWORK_STATE",
+        },
+        googlePlayGamesAppId = "877201824298"
+    },
+
+    plugins =
+    {
+        ["plugin.google.play.services"] =
+        {
+            publisherId = "com.coronalabs"
+        },
+    },
+}
